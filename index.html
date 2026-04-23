@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aurora Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="background-glow" aria-hidden="true"></div>
+
+  <header class="site-header glass">
+    <div class="brand">
+      <span class="brand-mark">✦</span>
+      <span>Aurora Studio</span>
+    </div>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="primary-btn small">Get Started</button>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <p class="eyebrow reveal">Crafting digital experiences that feel alive</p>
+      <h1 class="reveal delay-1">Beautiful interfaces with delightful motion.</h1>
+      <p class="subtitle reveal delay-2">
+        We design and develop modern web experiences with smooth interactions, polished transitions,
+        and performance-first animation systems.
+      </p>
+      <div class="actions reveal delay-3">
+        <button class="primary-btn">Start a Project</button>
+        <button class="ghost-btn">See our work</button>
+      </div>
+      <div class="stats reveal delay-4" id="work">
+        <article class="glass stat-card">
+          <h2><span data-target="92">0</span>%</h2>
+          <p>User satisfaction</p>
+        </article>
+        <article class="glass stat-card">
+          <h2><span data-target="148">0</span>+</h2>
+          <p>Projects launched</p>
+        </article>
+        <article class="glass stat-card">
+          <h2><span data-target="37">0</span>ms</h2>
+          <p>Interaction response</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <article class="feature-card glass reveal-on-scroll">
+        <h3>Microinteractions</h3>
+        <p>Gentle motion language to guide focus and reduce cognitive load.</p>
+      </article>
+      <article class="feature-card glass reveal-on-scroll">
+        <h3>Adaptive Layouts</h3>
+        <p>Fluid, responsive components that remain expressive on any screen.</p>
+      </article>
+      <article class="feature-card glass reveal-on-scroll">
+        <h3>Performance First</h3>
+        <p>Hardware-accelerated animation with reduced-motion accessibility support.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <p>Ready to build something immersive? Let’s create together.</p>
+    <button class="primary-btn">Book a Call</button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
