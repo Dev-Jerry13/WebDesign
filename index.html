@@ -3,100 +3,75 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nova Atelier — Immersive Web Experiences</title>
-  <meta name="description" content="Nova Atelier crafts elegant, high-performance web experiences with cinematic visuals and intentional motion." />
+  <title>Aurora Studio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="aurora" aria-hidden="true"></div>
-  <div class="noise" aria-hidden="true"></div>
+  <div class="background-glow" aria-hidden="true"></div>
 
   <header class="site-header glass">
-    <a class="brand" href="#top" aria-label="Nova Atelier home">
-      <span class="brand-glyph">◌</span>
-      <span>Nova Atelier</span>
-    </a>
+    <div class="brand">
+      <span class="brand-mark">✦</span>
+      <span>Aurora Studio</span>
+    </div>
     <nav>
-      <a href="#services">Services</a>
-      <a href="#projects">Projects</a>
-      <a href="#about">About</a>
+      <a href="#features">Features</a>
+      <a href="#work">Work</a>
       <a href="#contact">Contact</a>
     </nav>
-    <button class="btn btn-primary btn-sm">Let’s Talk</button>
+    <button class="primary-btn small">Get Started</button>
   </header>
 
-  <main id="top">
-    <section class="hero section">
-      <p class="eyebrow reveal">Digital design studio · Since 2019</p>
-      <h1 class="reveal delay-1">Beautiful products with cinematic motion and silky UX.</h1>
-      <p class="lead reveal delay-2">
-        We blend visual storytelling, premium interfaces, and polished interactions to create websites
-        people remember.
+  <main>
+    <section class="hero" id="top">
+      <p class="eyebrow reveal">Crafting digital experiences that feel alive</p>
+      <h1 class="reveal delay-1">Beautiful interfaces with delightful motion.</h1>
+      <p class="subtitle reveal delay-2">
+        We design and develop modern web experiences with smooth interactions, polished transitions,
+        and performance-first animation systems.
       </p>
-      <div class="hero-actions reveal delay-3">
-        <button class="btn btn-primary">Start Your Project</button>
-        <button class="btn btn-ghost">View Case Studies</button>
+      <div class="actions reveal delay-3">
+        <button class="primary-btn">Start a Project</button>
+        <button class="ghost-btn">See our work</button>
       </div>
-
-      <div class="kpi-grid reveal delay-4" id="projects">
-        <article class="kpi glass tilt">
-          <h2><span data-target="170">0</span>+</h2>
-          <p>Launches delivered</p>
+      <div class="stats reveal delay-4" id="work">
+        <article class="glass stat-card">
+          <h2><span data-target="92">0</span>%</h2>
+          <p>User satisfaction</p>
         </article>
-        <article class="kpi glass tilt">
-          <h2><span data-target="98">0</span>%</h2>
-          <p>Client retention rate</p>
+        <article class="glass stat-card">
+          <h2><span data-target="148">0</span>+</h2>
+          <p>Projects launched</p>
         </article>
-        <article class="kpi glass tilt">
-          <h2><span data-target="42">0</span>ms</h2>
-          <p>Avg interaction latency</p>
+        <article class="glass stat-card">
+          <h2><span data-target="37">0</span>ms</h2>
+          <p>Interaction response</p>
         </article>
       </div>
     </section>
 
-    <section class="services section" id="services">
-      <article class="card glass reveal-on-scroll tilt">
-        <p class="tag">01</p>
-        <h3>Visual Direction</h3>
-        <p>Strong art direction, bold typography systems, and signature brand moments.</p>
+    <section class="features" id="features">
+      <article class="feature-card glass reveal-on-scroll">
+        <h3>Microinteractions</h3>
+        <p>Gentle motion language to guide focus and reduce cognitive load.</p>
       </article>
-      <article class="card glass reveal-on-scroll tilt">
-        <p class="tag">02</p>
-        <h3>Motion Design</h3>
-        <p>Microinteractions and page transitions that guide focus without distraction.</p>
+      <article class="feature-card glass reveal-on-scroll">
+        <h3>Adaptive Layouts</h3>
+        <p>Fluid, responsive components that remain expressive on any screen.</p>
       </article>
-      <article class="card glass reveal-on-scroll tilt">
-        <p class="tag">03</p>
-        <h3>Frontend Craft</h3>
-        <p>High-performance, accessible interfaces engineered for consistency and speed.</p>
+      <article class="feature-card glass reveal-on-scroll">
+        <h3>Performance First</h3>
+        <p>Hardware-accelerated animation with reduced-motion accessibility support.</p>
       </article>
-    </section>
-
-    <section class="showcase section reveal-on-scroll" id="about">
-      <div class="showcase-copy">
-        <p class="eyebrow">Our approach</p>
-        <h3>We design for feeling first, then refine for performance.</h3>
-        <p>
-          Every screen is prototyped with transitions in mind—so experiences feel intentional from first
-          click to final conversion.
-        </p>
-      </div>
-      <div class="showcase-panel glass tilt" aria-hidden="true">
-        <div class="pulse-dot"></div>
-        <div class="showcase-line"></div>
-        <div class="pill">Interaction system</div>
-        <div class="pill">Accessible motion</div>
-        <div class="pill">Conversion-focused UI</div>
-      </div>
     </section>
   </main>
 
-  <footer class="section" id="contact">
-    <p>Have a bold idea? Let’s make it unforgettable.</p>
-    <button class="btn btn-primary">Book a Strategy Call</button>
+  <footer id="contact">
+    <p>Ready to build something immersive? Let’s create together.</p>
+    <button class="primary-btn">Book a Call</button>
   </footer>
 
   <script src="script.js"></script>
